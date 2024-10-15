@@ -1,0 +1,48 @@
+# Laravel & PHP Specific Files
+/vendor/
+/node_modules/
+/public/hot
+/public/fiebase-auth.json
+/public/storage
+/storage/*.key
+/.vscode/
+/.env
+/.env.example
+/.env.*.php
+.phpunit.result.cache
+/.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+/.idea
+
+# Ignore Laravel Mix file (optional if using Laravel Mix)
+/public/js/*.js
+/public/css/*.css
+/public/mix-manifest.json
+
+# Ignore npm/Yarn lock files (optional, depending on your preference)
+/yarn.lock
+/package-lock.json
+
+# Ignore compiled files and cache
+/bootstrap/cache/*
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*.log
+
+# Ignore Composer files (depending on your Composer setup)
+composer.lock
+
+# Ignoring IDE specific directories (for example, JetBrains IDEs or VSCode)
+.idea/
+.vscode/
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore other system-specific files
+Thumbs.db
